@@ -1,0 +1,313 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+body, div, h1,h2,h3, section, aside, article, ul, p, figure, hgroup, footer
+{
+	margin:0px;
+	padding:0px;
+}
+
+.bloque_fondo
+{
+	width:100%;
+	height:100%;
+  	
+}
+
+.bloque_principal
+{
+	width:900px;
+	height:auto;
+	margin:auto;
+}
+
+.header
+{
+	width:900px;
+	height:auto;
+	float:left;
+	background:white;
+}
+
+.logo_header
+{
+	width:245px;
+	height:auto;
+	float:left;
+}
+
+.contenedor_interno
+{
+	width:900px;
+	height:auto;
+	float:left;
+	border-top:1px solid;
+	border-color:orange;
+	border-bottom:1px solid;
+	border-bottom-color:orange;
+
+}
+
+.banner_index
+{
+	width:300px;
+	height:100px;
+	float:left;
+	margin-left:100px;
+	margin-top:70px;
+	background:grey;
+}
+
+.espacio
+{
+	width:900px;
+	height:70px;
+	float:left;
+}
+
+.logo_banner_index
+{
+	width:100px;
+	height:85px;
+	float:left;
+	text-align:center;
+	padding-top:15px;
+}
+
+.descripcion_banner_index
+{
+	width:200px;
+	height:70px;
+	float:left;
+	padding-top:30px;
+}
+
+
+/* Inicio de estilos de la pagina gestion_evento */
+
+.evento_interno
+{
+	width:300px;
+	height:50px;
+	float:left;
+	margin-left:100px;
+	margin-top:30px;
+	background:orange;
+	padding-top:50px;
+	text-align:center;
+}
+
+.evento_externo
+{
+	width:300px;
+	height:50px;
+	float:left;
+	margin-left:100px;
+	margin-top:30px;
+	background:orange;
+	padding-top:50px;
+	text-align:center;
+}
+
+#login
+{
+	width:900px;
+	height:auto;
+	float:left;
+	margin-bottom:20px;
+	display:none;
+	border-top:1px solid;
+	border-color:orange;
+}
+
+#formulario_interno
+{
+	width:900px;
+	height:auto;
+	float:left;
+	margin-bottom:20px;
+	border-top:1px solid;
+	border-color:orange;
+}
+
+#formulario_Externo
+{
+	width:900px;
+	height:auto;
+	float:left;
+	margin-bottom:20px;
+	display:none;
+}
+
+.boton_aceptar_FormularioInterno
+{
+	width:100px;
+	height:30px;
+	float:left;
+	margin:auto;
+	background:orange;
+	margin-top:70px;
+	margin-left:400px;
+	color:white;
+	text-align:center;
+}
+
+.autenticar
+{
+	width:400px;
+	height:200px;
+	float:left;
+	background:white;
+	border:1px solid;
+	border-color:orange;
+	margin-top:20px;
+	margin-left:250px;
+}
+
+.contenedor_bloques_interno
+{
+	width:900px;
+	height:auto;
+	float:left;
+	border-top:1px solid;
+	border-color:orange;
+	border-bottom:1px solid;
+	border-bottom-color:orange;
+
+}
+
+.cant_bloques_interno
+{
+	width:100px;
+	height:20px;
+	float:left;
+	margin-left:100px;
+	margin-top:30px;
+	background:blue;
+	padding-top:50px;
+	text-align:center;
+}
+
+/* estilos de instalaciones */
+
+.titulo_instalaciones
+{
+	width:900px;
+	height:30px;
+	float:left;
+	margin-bottom:10px;
+}
+
+.instalaciones_internas
+{
+	width:900px;
+	height:auto;
+	float:left;
+	border-top:1px solid;
+	border-color:orange;
+	border-bottom:1px solid;
+	border-bottom-color:orange;
+}
+
+.instalaciones
+{
+	width:300px;
+	height:300px;
+	float:left;
+	margin-left:100px;
+	margin-bottom:20px;
+}
+
+.instalaciones_foto
+{
+	width:300px;
+	height:200px;
+	float:left;
+}
+
+.instalaciones_datos
+{
+	width:290px;
+	height:70px;
+	float:left;
+	padding-top:10px;
+	background:orange;
+	color:white;
+	padding-left:10px;
+}
+
+/* Fin estilos de instalaciones */
+
+
+/* stiles de los bloques en la pagina comprobante */
+
+.banner_comprobante_servicios
+{
+	width:300px;
+	height:auto;
+	float:left;
+	margin-bottom:10px;
+	border:1px solid;
+	border-color:orange;
+	margin-top:20px;
+	margin-left:100px;
+}
+
+.nro_bloque
+{
+	width:300px;
+	height:20px;
+	float:left;
+	background:orange;
+}
+
+.localidad_bloque
+{
+	width:300px;
+	height:20px;
+	float:left;
+}
+
+.fecha_hora_bloque
+{
+	width:300px;
+	height:20px;
+	float:left;
+}
+
+.fechaI_bloque
+{
+	width:100px;
+	height:20px;
+	float:left;
+	font-size:12px;
+}
+.servicios_bloque
+{
+	width:300px;
+	height:20px;
+	float:left;
+}
+
+.servicios_actuales
+{
+	width:300px;
+	height:20px;
+	float:left;
+}
+
+/* Fin de los bloques en la pagina comprobante */
+
+.boton_volver
+{
+	width:100px;
+	height:20px;
+	float:left;
+	background:orange;
+	color:white;
+	text-align:center;
+	padding-top:10px;
+	margin-top:10px;
+	margin-left:450px;
+}

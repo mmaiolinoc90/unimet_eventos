@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, div, section, aside, article, ul, p, figure, hgroup, footer, a
+{
+	margin:0px;
+	padding:0px;
+}
+
+.bloque_pagina
+{
+	width:900px;
+	height:auto;
+	background:red;
+	margin:auto;
+}
+
+.bloque_modulo
+{
+	width:293px;
+	height:150px;
+	float:left;
+	margin-top:10px;
+	margin-left:5px;
+	background:blue;
+}
+
+.bloque_foto_modulo
+{
+	width:100px;
+	height:150px;
+	float:left;
+	background:purple;
+}
+
+.bloque_nombre_modulo
+{
+	width:193px;
+	height:100px;
+	float:left;
+	background:yellow;
+	font-size:36px;
+	color:blue;
+	text-align:center;
+	padding-top:50px;
+}
